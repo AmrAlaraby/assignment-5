@@ -1,0 +1,142 @@
+@media screen and (max-width: 480px){
+    .contact-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .margn {
+        width: 100%;
+        max-width: 300px; 
+        text-align: center;
+    }
+
+    .contact-form {
+        width: 100%; 
+        padding: 10px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        padding: 8px; 
+    }
+
+    .contact-form button {
+        padding: 10px;
+    }
+    .card{
+        
+        width: 100;
+      }
+      .main-header{
+        flex-direction: column-reverse;
+        height: auto;
+        padding: 30px;
+    }
+    .main-header .header-text{
+        width: 100%;
+    }
+    .header-text{
+        padding-top: 40px;
+    }
+    .main{
+        height: auto;
+    }
+    .flex-coulmn{
+        width:100%;
+        
+      }
+      .d-flex input{
+        width: 100%;
+      }
+      .min-links{
+        width: 100%;
+      }
+      .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-col {
+        text-align: center;
+    }
+
+    .newsletter-form {
+        flex-direction: column;
+    }
+
+    .newsletter-form input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .newsletter-form button {
+        width: 100%;
+    }
+    .my-50{width: 100%;}
+}
+@media screen and  (min-width: 481px) and (max-width: 920px){
+    .container {
+        .my-50{width: 100%;}
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-col {
+        text-align: center;
+    }
+
+    .newsletter-form {
+        flex-direction: column;
+    }
+
+    .newsletter-form input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .newsletter-form button {
+        width: 100%;
+    }
+    .contact-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .margn {
+        width: 100%;
+        max-width: 500px; 
+        text-align: center; 
+    }
+
+    .contact-form {
+        width: 100%; 
+    }
+    .main-header{
+        flex-direction: column-reverse;
+        height: auto;
+        padding: 30px;
+    }
+    .main-header .header-text{
+        width: 90%;
+    }
+    .header-text{
+        padding-top: 40px;
+    }
+    .main{
+        height: auto;
+    }
+    .card{
+        
+        width: calc(100%/2);
+      }
+      .flex-coulmn{
+        width: calc(100%/2);
+      }
+      .d-flex input{
+        width: 100%;
+      }
+      .min-links{
+        width: 100%;
+      }
+}
+
